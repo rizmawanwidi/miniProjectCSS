@@ -30,6 +30,14 @@
         .imgProfile{
             width: 100px;
             height: 100px;
+            border: 5px solid white;
+            border-radius: 100%;
+            box-shadow: 5px 5px 10px 2px rgba(84,43,111,0.485);
+            transition: all;
+            transition-duration: 1s;
+        }
+        .imgProfile:hover{
+            margin-left: -10px;
         }
         .holderImgProfile{
             flex: 1;
@@ -79,11 +87,14 @@
 <header>
     <div class="headerContainer">
         <div class="holderImgProfile">
-            <img class="imgProfile" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Bouteille.jpg/640px-Bouteille.jpg" alt="">
+            <img 
+                class="imgProfile"
+                src="https://p-bandai.com/img/tw/p/m/N2555969001001_001.jpg" alt=""
+                />
         </div>
         <div class="holderDetailProfile">
-            <div class="nameProfile">Botol Kecap</div>
-            <div class="titleProfile">Benda untuk menampung Kecap</div>
+            <div class="nameProfile">Kamen Yaiba</div>
+            <div class="titleProfile">Pahlawan Tokyo</div>
             <div>
                 <button class="button download">Download Informasi</button>
                 <button class="button hire">Dapatkan Saya !</button>
