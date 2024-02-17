@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;600&display=swap"
+        rel="stylesheet"
+    />
+    <style>
+        body{
+            background-color: aqua;
+            padding: 0;
+            margin: 0;
+            font-family: "Roboto Slab", serif;
+        }
+        header{
+            background: rgb(131,58,180);
+            background: linear-gradient(
+                90deg,
+                rgba(131,58,180,1)0%,
+                rgba(253,29,29,1)50%,
+                rgba(252,176,69,1)100%
+            );
+            padding: 20px;
+        }
+        .headerContainer{
+            display: flex;
+        }
+        .imgProfile{
+            width: 100px;
+            height: 100px;
+        }
+        .holderImgProfile{
+            flex: 1;
+            text-align: center;
+        }
+        .holderDetailProfile{
+            flex: 1.5;
+            
+        }
+        .nameProfile{
+            font-size: 24px;
+            color: white;
+            font-weight: 600;
+        }
+        .titleProfile{
+            color: white;
+        }
+        .button{
+            border: none;
+            padding: 5px 10px;
+            margin: 10px 10px 0 0;
+            font-family: "Roboto Slab", serif;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 600;
+            transition: all;
+            transition-duration: 1s;
+        }
+        .button.download{
+            background-color: #e6e9ed;
+            color: rgb(43,43,43);
+            cursor: pointer;
+        }
+        .button.hire{
+            background-color: #37bc9b;
+            color:white;
+            cursor: pointer;
+        }
+        .button:hover{
+            transform: scale(1.1);
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <div class="headerContainer">
+        <div class="holderImgProfile">
+            <img class="imgProfile" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Bouteille.jpg/640px-Bouteille.jpg" alt="">
+        </div>
+        <div class="holderDetailProfile">
+            <div class="nameProfile">Botol Kecap</div>
+            <div class="titleProfile">Benda untuk menampung Kecap</div>
+            <div>
+                <button class="button download">Download Informasi</button>
+                <button class="button hire">Dapatkan Saya !</button>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    
+</body>
+</html>
